@@ -71,11 +71,12 @@ header {
 
 .card-list {
     display: flex;
+    flex-wrap: wrap;
   
 }
 
 .card {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .card-content img {
@@ -134,12 +135,11 @@ header {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    /* .card {
-        width: 100%;
-    }
+
     .card img {
-        width: 100%;
-    } */
+        width:calc(33% - 1);
+    }
+    
 }
 
 @media (max-width:800px) {
